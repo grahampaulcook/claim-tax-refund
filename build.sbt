@@ -28,7 +28,7 @@ def test(scope: String = "test"): Seq[ModuleID] = Seq(
   "org.scalatest"           %% "scalatest"          % "3.0.8"             % scope,
   "org.pegdown"             % "pegdown"             % "1.6.0"             % scope,
   "com.typesafe.play"       %% "play-test"          % PlayVersion.current % scope,
-  "org.scalatestplus.play"  %% "scalatestplus-play" % "3.1.2"             % scope,
+  "org.scalatestplus.play"  %% "scalatestplus-play" % "3.1.3"             % scope,
   "org.mockito"             % "mockito-all"         % "1.10.19"           % scope,
   "org.scalacheck"          %% "scalacheck"         % "1.14.3"            % scope,
   "com.github.tomakehurst"  % "wiremock"            % "2.25.1"            % scope,
