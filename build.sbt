@@ -20,7 +20,7 @@ val appName = "claim-tax-refund"
 val compile = Seq(
   ws,
   "uk.gov.hmrc" %% "simple-reactivemongo" % "7.26.0-play-26",
-  "uk.gov.hmrc" %% "bootstrap-play-26"    % "1.3.0"
+  "uk.gov.hmrc" %% "bootstrap-play-26"    % "1.7.0"
 )
 
 def test(scope: String = "test"): Seq[ModuleID] = Seq(
